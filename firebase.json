@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "controlobra",
+      "public": "dist/controlobra",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

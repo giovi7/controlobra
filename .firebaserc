@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "controlobra-ng": {
+      "hosting": {
+        "controlobra": [
+          "controlobra-ng"
+        ]
+      }
+    }
+  }
+}

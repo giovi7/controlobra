@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyDcui0ckn695DfngkRqOJKjHESijoQgnYE",
+    authDomain: "controlobra-ng.firebaseapp.com",
+    projectId: "controlobra-ng",
+    storageBucket: "controlobra-ng.appspot.com",
+    messagingSenderId: "187071986187",
+    appId: "1:187071986187:web:7aa8e809b9c989d467e50e"
+  },
 };
 
 /*
